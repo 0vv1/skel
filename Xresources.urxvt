@@ -1,0 +1,46 @@
+! file:    Xresources.urxvt
+! author:  (c) 2012 - 2021 Alexander Puls <https://0vv1.io>
+! license: MIT <https://opensource.org/licenses/MIT>
+! ------------------------------------------------------------------------------
+
+URxvt.geometry:             124x75
+!URxvt.inheritPixmap:        true
+!URxvt.shading:              40
+!URxvt.transparent:          true
+!URxvt.alpha:				0.8
+URxvt.scrollBar:            false
+URxvt.saveLines:            8192
+URxvt.underlineURLs:        true
+URxvt.urlLauncher:          w3m
+URxvt*scrollstyle:          xterm
+URxvt*visualBell:           true
+
+URxvt.intensityStyles:      false
+URxvt.cursorBlink:          true
+URxvt.pointerBlank:         true
+URxvt.depth:                32
+URxvt.fading:               0
+URxvt.internalBorder:       0
+URxvt.externalBorder:       0
+
+URxvt.font:                 -misc-tamzenforpowerline-medium-r-normal--15-108-100-100-c-80-iso8859-1
+!URxvt.font:                 xft:mononoki Nerd Font Mono:size=12:regular:antialias=true:autohint=true
+URxvt.boldFont:             -misc-tamzenforpowerline-bold-r-normal--15-108-100-100-c-80-iso8859-1
+!URxvt.italicFont:           xft:mononoki Nerd Font Mono:size=12:italic:antialias=true:autohint=true
+!URxvt.boldItalicFont:       xft:mononoki Nerd Font Mono:size=12:bold:italic:autohint=true
+URxvt.letterSpace:          0
+
+! Erweiterungen:
+URxvt.perl-ext:             default,matcher,tabbed
+URxvt.perl-ext-common:      default,matcher,tabbed
+URxvt.matcher.button:       1
+URxvt*matcher.pattern.1:    \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2:    \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.rend.0:       fg8
+
+! kein Scrollen bei Terminal-Ausgabe
+URxvt*scrollTtyOutput:      false
+URxvt*scrollWithBuffer:     true
+URxvt*scrollTtyKeypress:    true
+
+! EOF $XDG_CONFIG_HOME/Xresources.urxvt ----------------------------------------

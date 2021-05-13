@@ -1,0 +1,15 @@
+.adobe
+.cache
+.config/dconf/user.*
+.config/Trolltech.conf
+.gnome
+.gnome2
+.gnome2_private
+.gstreamer-0.10
+.Heaven
+.local/share/gvfs-metadata
+.thumbnails
+.urxvt
+.Valley
+.Xauthority
+.xsession-err*

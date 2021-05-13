@@ -1,0 +1,76 @@
+! XTerm _________________________
+!XTerm.termName:             xterm-256color
+XTerm*geometry:             90x50
+XTerm*allowFontOps:         true
+XTerm*allowSendEvents:      true
+!XTerm*dynamicColors:        true
+!XTerm*cursorColor:          #1AAA13
+XTerm*cursorBlink:          true
+XTerm*cursorOnTime:         1700
+XTerm*cursorOffTime:        300
+XTerm*internalBorder:       0
+!XTerm*borderColor:          white
+XTerm*borderWidth:          0
+XTerm*visualBell:           true
+XTerm*shading:              80
+XTerm*saveLines:            8192
+!XTerm*scrollColor:          black
+XTerm*scrollKey:            true
+XTerm*scrollTtyOutput:      false
+XTerm*scrollBar:            false
+XTerm*rightScrollBar:       true
+XTerm*jumpScroll:           true
+XTerm*multiScroll:          true
+XTerm*utmpInhibit:          false
+XTerm*waitForMap:           true
+XTerm*toolBar:              false
+!XTerm*title:                h
+
+!! Fix the Alt-p is wacko char problem.
+!XTerm*eightBitInput:        false
+XTerm*metaSendsEscape:      true
+
+! The following two sections take advantage of new features in version 7
+! of the Athena widget library.  Comment them out if you have a shallow
+! color depth.
+!XTerm*mainMenu*backgroundPixmap:    gradient:vertical?dimension=400&start=gray10&end=gray40
+!XTerm*mainMenu*foreground:          white
+!XTerm*vtMenu*backgroundPixmap:      gradient:vertical?dimension=550&start=gray10&end=gray40
+!XTerm*vtMenu*foreground:            white
+!XTerm*fontMenu*backgroundPixmap:    gradient:vertical?dimension=300&start=gray10&end=gray40
+!XTerm*fontMenu*foreground:          white
+!XTerm*tekMenu*backgroundPixmap:     gradient:vertical?dimension=300&start=gray10&end=gray40
+!XTerm*tekMenu*foreground:           white
+
+
+! XTerm fonts __________________________________________________________________
+!XTerm*utf8:             true
+!XTerm*font:             -*-tamzenforpowerline-medium-r-*-*-16-*-*-*-*-*-*-*
+!XTerm*faceName:         Mononoki Nerd Font Mono:style=Regular:size=12
+
+! XTerm profiles - use via 'xterm -name profilename'
+light*foreground:           black
+light*background:           gray90
+light*cursorColor:          blue
+light*font:                 -misc-fixed-medium-r-normal--14-140-75-75-c-90-iso8859-15
+
+local*foreground:           rgb:f0/f0/ff
+local*background:           rgb:00/00/25
+local*cursorColor:          rgb:c0/c0/ff
+local*font:                 -misc-fixed-medium-r-normal--14-140-75-75-c-90-iso8859-15
+
+remote*foreground:          rgb:f0/ff/f0
+remote*background:          rgb:00/25/00
+remote*cursorColor:         rgb:white
+remote*font:                -misc-fixed-medium-r-normal--14-140-75-75-c-90-iso8859-15
+
+root*foreground:            rgb:ff/f0/c0
+root*background:            rgb:25/00/00
+root*cursorColor:           rgb:ff/c0/c0
+root*font:                  -misc-fixed-medium-r-normal--14-140-75-75-c-90-iso8859-15
+
+small*foreground:           white
+small*background:           black
+small*cursorColor:          red
+small*font:                 -misc-fixed-medium-r-normal-*-*-80-*-*-c-*-iso8859-15
+

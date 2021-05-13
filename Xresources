@@ -1,0 +1,27 @@
+! file:    Xresources
+! brief:   holds configuration for X11 applications
+! author:  (c) 2009 - 2021 Alexander Puls <https://0vv1.io>
+! license: MIT <https://opensource.org/licenses/MIT>
+! -----------------------------------------------------------
+
+! XFT font config _______
+Xft.antialias: 1
+Xft.hinting:   1
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+Xft.rgba:      none
+
+! color palette _______________________________________
+#include       "../.themes/Oystagony/Xresources.colors"
+
+! pointer _____________
+Xcursor.theme: Obsidian
+Xcursor.size:  24
+
+! app configs _______________________________________________
+#include       "Xresources.urxvt"
+#include       "Xresources.xscreensaver"
+#include       "Xresources.xterm"
+#include       "../.themes/Oystagony/Xresources.urxvt.colors"
+
+! EOF $XDG_CONFIG_HOME/Xresources ---------------------------
