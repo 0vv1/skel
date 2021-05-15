@@ -1,4 +1,4 @@
- file:    get_location.sh
+#file:    get_location.sh
 # brief:   shell function to obtain/store geolocation data
 # author:  (c) 2011 - 2021 Alexander Puls <https://0vv1.io>
 # license: MIT <https://opensource.org/licenses/MIT>

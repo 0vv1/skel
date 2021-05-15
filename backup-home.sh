@@ -1,4 +1,4 @@
-e!/bin/sh
+#!/bin/sh
 # file:    backup-home.sh
 # brief:   writes the content of the home directory to a given location
 # author:  (c) 2013 - 2021 Alexander Puls <https://0vv1.io>
@@ -28,7 +28,7 @@ if [ -w "${BAK_DIR}" ] ; then
         gpg --batch --pinentry-mode loopback \
             --passphrase-file "${KEY_DIR}"/backup \
             --symmetric > "${BAK_DIR}"/"$(date +%Y-%m-%d)".tar.gz.gpg.bak
-        sync &&
+        sync
     printf "\b\b\b\033[0;32mdone\033[0m\n"
 else
     printf "destination not writable\n"
