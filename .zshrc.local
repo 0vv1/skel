@@ -18,37 +18,37 @@ source ${XDG_CONFIG_HOME}/aliases.sh
 
 # spaceship prompt order 
 SPACESHIP_PROMPT_ORDER=(
-	time
-	user
-	host
-	dir
-	git
-	hg
-	package
-	node
-	ruby
-	elixir
-	xcode
-	swift
-	golang
-	php
-	rust
-	julia
-	docker
-	aws
-	venv
-	conda
-	pyenv
-	dotnet
-	ember
-#	kubecontext
-	battery
-	jobs
-	exec_time
-	line_sep
-	char
-	exit_code
-	vi_mode
+    time
+    user
+    host
+    dir
+    git
+    hg
+    package
+    node
+    ruby
+    elixir
+    xcode
+    swift
+    golang
+    php
+    rust
+    julia
+    docker
+    aws
+    venv
+    conda
+    pyenv
+    dotnet
+    ember
+#   kubecontext
+    battery
+    jobs
+    exec_time
+    line_sep
+    char
+    exit_code
+    vi_mode
 )
 
 # spaceship section 'prompt' ----------

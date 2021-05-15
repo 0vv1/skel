@@ -4,10 +4,10 @@
 ! ------------------------------------------------------------------------------
 
 URxvt.geometry:             124x75
-!URxvt.inheritPixmap:        true
-!URxvt.shading:              40
-!URxvt.transparent:          true
-!URxvt.alpha:				0.8
+!URxvt.inheritPixmap:       true
+!URxvt.shading:             40
+!URxvt.transparent:         true
+!URxvt.alpha:               0.8
 URxvt.scrollBar:            false
 URxvt.saveLines:            8192
 URxvt.underlineURLs:        true
@@ -24,10 +24,10 @@ URxvt.internalBorder:       0
 URxvt.externalBorder:       0
 
 URxvt.font:                 -misc-tamzenforpowerline-medium-r-normal--15-108-100-100-c-80-iso8859-1
-!URxvt.font:                 xft:mononoki Nerd Font Mono:size=12:regular:antialias=true:autohint=true
+!URxvt.font:                xft:mononoki Nerd Font Mono:size=12:regular:antialias=true:autohint=true
 URxvt.boldFont:             -misc-tamzenforpowerline-bold-r-normal--15-108-100-100-c-80-iso8859-1
-!URxvt.italicFont:           xft:mononoki Nerd Font Mono:size=12:italic:antialias=true:autohint=true
-!URxvt.boldItalicFont:       xft:mononoki Nerd Font Mono:size=12:bold:italic:autohint=true
+!URxvt.italicFont:          xft:mononoki Nerd Font Mono:size=12:italic:antialias=true:autohint=true
+!URxvt.boldItalicFont:      xft:mononoki Nerd Font Mono:size=12:bold:italic:autohint=true
 URxvt.letterSpace:          0
 
 ! Erweiterungen:
